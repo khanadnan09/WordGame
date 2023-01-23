@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scramble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Word Scramble Game</h3>
+        <div class="Scramble_word">G D D I N W E</div>
+        <div class="hint"><span>Hint:</span><span class="hintIs"></span></div>
+
+        <div class="time"><span>Time Left:</span><span class="timeIs">⏱</span></div>
+
+        <div class="input">
+            <input type="text" class="answer" placeholder="Enter a walid word">
+        </div>
+        <div class="buttons">
+            <button class="refresh btn">Refresh Word</button>
+            <button class="check btn">Check Word</button>
+        </div>
+    </div>
+
+    <div class="popup_back">
+        <div class="popup">
+            <span class="popup_text"></span>
+            <!-- Well Done , your answer is correct 👏😀🎉. -->
+            <!-- oops , your answer is wrong 🙄😫😥. -->
+            <button class="play_again">Play Again</button>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>
